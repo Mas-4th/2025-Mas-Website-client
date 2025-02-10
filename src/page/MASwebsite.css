@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("/public/img/background.png") no-repeat center center;
+    background-size: cover;
+    height: 13282px;
+}
+
+.top-panel {
+    align-items: center;
+    background-color: #2D2F30;
+    display: flex;
+    height: 77px;
+}
