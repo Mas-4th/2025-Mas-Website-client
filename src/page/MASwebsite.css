@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 body {
     margin: 0;
@@ -15,7 +16,7 @@ body {
     height: 77.102px;
 }
 
-.top-panel p{
+.top-panel p {
     color: #FFF;
     font-family: "Inknut Antiqua";
     font-size: 24px;
@@ -28,3 +29,77 @@ body {
     flex-shrink: 0;
 }
 
+.Main {
+    position: relative;
+    /* 내부 요소를 absolute로 배치하기 위해 */
+}
+
+.Main img {
+    margin-top: 45px;
+    margin-left: 37px;
+    width: 1800px;
+    height: auto;
+}
+
+.hashtags {
+    position: absolute;
+    bottom: 36%;
+    left: 58%;
+    color: #2D2F30;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 580;
+    line-height: normal;
+}
+
+.apply {
+    position: absolute;
+    bottom: 25.5%;
+    left: 73%;
+    transform: translateX(-50%);
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 580;
+    line-height: normal;
+    display: flex;
+    width: 300px;
+    height: 76.857px;
+    padding: 23px 90px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    background: #F19744;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+button {
+    transition: transform 0.2s ease-in-out; /* 부드러운 애니메이션 */
+}
+
+button:hover {
+    transform: translateX(-50%) scale(1.1);
+}
+
+.info {
+    position: absolute;
+    bottom: 17%;
+    left: 73%;
+    transform: translateX(-50%);
+    color: #2D2F30;
+    text-align: center;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.info a{
+    text-decoration: none;
+}
