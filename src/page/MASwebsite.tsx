@@ -4,7 +4,7 @@ import "./MASwebsite.css";
 const members = [
     {
         name: "양은서", image: "", department: "sw",
-        hashtag: ["ENFP", "찬화력 갑", "틱틱거리는 강아지", "공모전 천재", "MAS 찐러버", "귀여운 친칠라상"]
+        hashtag: ["ENFP", "친화력 갑", "틱틱거리는 강아지", "공모전 천재", "MAS 찐러버", "귀여운 친칠라상"]
     },
     {
         name: "피은서", image: "", department: "sw",
@@ -57,7 +57,7 @@ const MASwebsite = () => {
                             <div className="empty-pic" />
                         )}
                         <div className="name">{member.name}</div>
-                        <div className="hashtags-container">
+                        <div className="hashtag-container">
                             {member.hashtag.map((tag, i) => (
                                 <span key={i} className="tag">#{tag}<br /></span>
                             ))}
@@ -65,8 +65,7 @@ const MASwebsite = () => {
                     </div>
                 ))}
             </div>
-
-            <div className="members-de"> {/* de 부원들 */}
+            <div className="members-de">
                 {deMembers.map((member, index) => (
                     <div key={index} className="member-card orange">
                         {member.image ? (
@@ -75,7 +74,43 @@ const MASwebsite = () => {
                             <div className="empty-pic" />
                         )}
                         <div className="name">{member.name}</div>
-                        <div className="hashtags-container">
+                        <div className="hashtag-container">
+                            {member.hashtag.map((tag, i) => (
+                                <span key={i} className="tag">#{tag}</span>
+                            ))}
+                        </div>
+                    </div>
+                ))}
+            </div>
+
+            <div className="title2">4기 부원</div>
+            <div className="members-sw">
+                {swMembers.map((member, index) => (
+                    <div key={index} className="member-card green">
+                        {member.image ? (
+                            <img src={member.image} alt={member.name} className="profile-pic" />
+                        ) : (
+                            <div className="empty-pic" />
+                        )}
+                        <div className="name">{member.name}</div>
+                        <div className="hashtag-container">
+                            {member.hashtag.map((tag, i) => (
+                                <span key={i} className="tag">#{tag}<br /></span>
+                            ))}
+                        </div>
+                    </div>
+                ))}
+            </div>
+            <div className="members-de">
+                {deMembers.map((member, index) => (
+                    <div key={index} className="member-card orange">
+                        {member.image ? (
+                            <img src={member.image} alt={member.name} className="profile-pic" />
+                        ) : (
+                            <div className="empty-pic" />
+                        )}
+                        <div className="name">{member.name}</div>
+                        <div className="hashtag-container">
                             {member.hashtag.map((tag, i) => (
                                 <span key={i} className="tag">#{tag}</span>
                             ))}
