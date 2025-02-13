@@ -10,12 +10,12 @@ const members1 = [
 ];
 
 const members2 = [
-    { name: "정희진", image: "", department: "sw", hashtag: [] },
-    { name: "정현윤", image: "", department: "sw", hashtag: [] },
-    { name: "박준원", image: "", department: "sw", hashtag: [] },
-    { name: "박홍준", image: "", department: "sw", hashtag: [] },
-    { name: "문지우", image: "", department: "de", hashtag: [] },
-    { name: "한정훈", image: "", department: "de", hashtag: [] },
+    { name: "정희진", image: "", department: "sw", hashtag: ["ISFP", "친화력 갑", "현실적", "좀비고 랭커", "롤체 플래티넘", "후배 사랑"] },
+    { name: "정현윤", image: "", department: "sw", hashtag: ["ESFP", "활발함", "귀여움", "가끔 팩폭", "오버워치 랭커", "간식 담당"] },
+    { name: "박준원", image: "", department: "sw", hashtag: ["INTJ", "개발 탑", "극 J", "롤 다이아", "운동 잘함", "몬스터 달고삼"] },
+    { name: "박홍준", image: "", department: "sw", hashtag: ["INTP", "분위키 메이커", "극 E같지만 I", "배그 정복자", "아이디어 뱅크"] },
+    { name: "문지우", image: "", department: "de", hashtag: ["INTP", "현실적", "극 T", "제5인격 달인", "영어 천재", "용인 girl"] },
+    { name: "한정훈", image: "", department: "de", hashtag: ["INFP", "미림 송강", "극 F", "로블록스", " 키 190", "창의력 쩔음"] },
 ];
 
 const MASwebsite = () => {
