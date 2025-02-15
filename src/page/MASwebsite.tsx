@@ -160,38 +160,37 @@ const MASwebsite = () => {
                 <p className="award">수상자 : ㅇㅇㅇ</p>
             </div>
             <div className="history2">
-                <p className="subtitle">STAC</p>
+                <p className="subtitle">MS임파워먼트</p>
                 <p className="award">수상자 : ㅇㅇㅇ</p>
                 <img src="/img/Activity1.jpg" alt="STAC" />
             </div>
             <div className="history1">
                 <img src="/img/Activity1.jpg" alt="STAC" />
-                <p className="subtitle">STAC</p>
-                <p className="award">수상자 : ㅇㅇㅇ</p>
+                <p className="subtitle">창의 아이디어 경진대회</p>
+                <p className="award">수상자 : 박홍준</p>
             </div>
             <div className="history2">
-                <p className="subtitle">STAC</p>
-                <p className="award">수상자 : ㅇㅇㅇ</p>
+                <p className="subtitle">APPJAM</p>
+                <p className="award">수상자 : 양은서, 박준원, 정희진</p>
                 <img src="/img/Activity1.jpg" alt="STAC" />
             </div>
             <div className="history1">
                 <img src="/img/Activity1.jpg" alt="STAC" />
-                <p className="subtitle">STAC</p>
+                <p className="subtitle">소프트웨어 챌린지</p>
                 <p className="award">수상자 : ㅇㅇㅇ</p>
             </div>
             <div className="history2">
-                <p className="subtitle">STAC</p>
-                <p className="award">수상자 : ㅇㅇㅇ</p>
+                <p className="subtitle">미커톤</p>
+                <p className="award">수상자 : 박홍준</p>
                 <img src="/img/Activity1.jpg" alt="STAC" />
             </div>
             <div className="history1">
                 <img src="/img/Activity1.jpg" alt="STAC" />
-                <p className="subtitle">STAC</p>
-                <p className="award">수상자 : ㅇㅇㅇ</p>
+                <p className="subtitle">청소년 디지털 서비스 공모전</p>
+                <p className="award">수상자 : 정현윤, 박홍준</p>
             </div>
             <div className="history2">
-                <p className="subtitle">STAC</p>
-                <p className="award">수상자 : ㅇㅇㅇ</p>
+                <p className="subtitle">프로젝트</p>
                 <img src="/img/Activity1.jpg" alt="STAC" />
             </div>
             <div className="title5">MAS만의 차별점</div>

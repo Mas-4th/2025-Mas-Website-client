@@ -379,10 +379,10 @@ button:hover {
     text-align: center;
     line-height: 75px;
     margin-top: 320px;
-    margin-left: 100px;
+    margin-left: 95px;
     color: #FFF;
     font-family: "Istok Web";
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
 }
@@ -390,7 +390,7 @@ button:hover {
 .history1 .award {
     position: absolute;
     top: 88%;
-    left: 55%;
+    left: 55.5%;
     transform: translateX(-50%);
     color: #000;
     font-family: Inter;
@@ -425,15 +425,16 @@ button:hover {
     margin-left: 575px;
     color: #FFF;
     font-family: "Istok Web";
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
 }
 
 .history2 .award {
     position: absolute;
+    text-align: right;
     top: 88%;
-    left: 42%;
+    left: 39.5%;
     transform: translateX(-50%);
     color: #000;
     font-family: Inter;
