@@ -1,20 +1,55 @@
 import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./MASwebsite.css";
+
+const MySlider: any = Slider;
+
+const activityImages = [
+    "/img/activity1.jpg",
+    "/img/activity2.png",
+    "/img/activity3.png",
+    "/img/activity4.png",
+];
+
+const ActivitySlider = () => {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+    };
+
+    return (
+        <div className="activity-slider">
+            <Slider {...settings}>
+                {activityImages.map((image, index) => (
+                    <div key={index} className="slide-item">
+                        <img src={image} alt={`활동 사진 ${index + 1}`} className="slide-image" />
+                    </div>
+                ))}
+            </Slider>
+        </div>
+    );
+};
 
 const members1 = [
     { name: "양은서", image: "", department: "sw", hashtag: ["ENFP", "친화력 갑", "틱틱거리는 강아지", "공모전 천재", "MAS 찐러버", "귀여운 친칠라상"] },
     { name: "피은서", image: "", department: "sw", hashtag: [] },
-    { name: "안민선", image: "", department: "sw", hashtag: ["INFP", "잘 들어줌", "체육 부장", "귀여운거 좋아함"] },
+    { name: "안민선",  "image": "/img/minsun.png", department: "sw", hashtag: ["INFP", "잘 들어줌", "체육 부장", "귀여운거 좋아함"] },
     { name: "이서현", image: "", department: "de", hashtag: [] },
     { name: "이경민", image: "", department: "de", hashtag: [] },
 ];
 
 const members2 = [
-    { name: "정희진", image: "", department: "sw", hashtag: ["ISFP", "친화력 갑", "현실적", "좀비고 랭커", "롤체 플래티넘", "후배 사랑"] },
-    { name: "정현윤", image: "", department: "sw", hashtag: ["ESFP", "활발함", "귀여움", "가끔 팩폭", "오버워치 랭커", "간식 담당"] },
+    { name: "정희진", image: "/img/heejin.png", department: "sw", hashtag: ["ISFP", "친화력 갑", "현실적", "좀비고 랭커", "롤체 플래티넘", "후배 사랑"] },
+    { name: "정현윤", image: "/img/hyunyun.png", department: "sw", hashtag: ["ESFP", "활발함", "귀여움", "가끔 팩폭", "오버워치 랭커", "간식 담당"] },
     { name: "박준원", image: "", department: "sw", hashtag: ["INTJ", "개발 탑", "극 J", "롤 다이아", "운동 잘함", "몬스터 달고삼"] },
     { name: "박홍준", image: "", department: "sw", hashtag: ["INTP", "분위키 메이커", "극 E같지만 I", "배그 정복자", "아이디어 뱅크"] },
-    { name: "문지우", image: "", department: "de", hashtag: ["INTP", "현실적", "극 T", "제5인격 달인", "영어 천재", "용인 girl"] },
+    { name: "문지우", image: "/img/jiwoo.png", department: "de", hashtag: ["INTP", "현실적", "극 T", "제5인격 달인", "영어 천재", "용인 girl"] },
     { name: "한정훈", image: "", department: "de", hashtag: ["INFP", "미림 송강", "극 F", "로블록스", " 키 190", "창의력 쩔음"] },
 ];
 
@@ -116,6 +151,11 @@ const MASwebsite = () => {
                     </div>
                 ))}
             </div>
+            <div className="title3">활동 이력</div>
+                <ActivitySlider />
+            <div className="title4">동아리 역사관</div>
+            <div className="title5">MAS만의 차별점</div>
+            <div className="title6">동아리 분위기</div>
         </div>
     );
 };

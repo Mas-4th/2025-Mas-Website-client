@@ -238,7 +238,7 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 521px;
+    margin-top: 551px;
 }
 
 .tag {
@@ -257,7 +257,7 @@ button:hover {
 }
 
 .members-sw .member-card:first-child {
-    border-radius: 150px 0px 0px 0px ;
+    border-radius: 150px 0px 0px 0px;
 }
 
 .members-sw .member-card:first-child .profile-pic {
@@ -281,7 +281,12 @@ button:hover {
 }
 
 .members2-sw .member-card:first-child {
-    border-radius: 150px 0px 0px 0px ;
+    border-radius: 150px 0px 0px 0px;
+    margin-top: 133px;
+}
+
+.members2-sw .member-card:nth-child(3) {
+    margin-top: 133px;
 }
 
 .members2-sw .member-card:first-child .profile-pic {
@@ -302,4 +307,80 @@ button:hover {
 
 .members2-sw .member-card:last-child .empty-pic {
     border-radius: 0px 0px 63px 0px;
+}
+
+.members2-de .member-card:first-child {
+    margin-top: 103px;
+}
+
+.title3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 75px;
+    border-radius: 28px;
+    background: #F19744;
+    width: 450px;
+    height: 75px;
+    text-align: center;
+    margin-top: 350px;
+    margin-left: 180px;
+}
+
+.slick-slide {
+    padding-top: 84px;
+    padding-left: 200px;
+    width: 1019.735px;
+    height: 591.558px;
+}
+
+
+.title4 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 75px;
+    border-radius: 28px;
+    background: #F19744;
+    width: 450px;
+    height: 75px;
+    text-align: center;
+    margin-top: 158px;
+    margin-left: 180px;
+}
+
+.title5 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 75px;
+    border-radius: 28px;
+    background: #F19744;
+    width: 450px;
+    height: 75px;
+    text-align: center;
+    margin-top: 158px;
+    margin-left: 180px;
+}
+
+.title6 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 75px;
+    border-radius: 28px;
+    background: #F19744;
+    width: 450px;
+    height: 75px;
+    text-align: center;
+    margin-top: 158px;
+    margin-left: 180px;
 }
