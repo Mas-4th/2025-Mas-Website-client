@@ -39,7 +39,7 @@ const ActivitySlider = () => {
 const members1 = [
     { name: "양은서", image: "", department: "sw", hashtag: ["ENFP", "친화력 갑", "틱틱거리는 강아지", "공모전 천재", "MAS 찐러버", "귀여운 친칠라상"] },
     { name: "피은서", image: "", department: "sw", hashtag: [] },
-    { name: "안민선",  "image": "/img/minsun.png", department: "sw", hashtag: ["INFP", "잘 들어줌", "체육 부장", "귀여운거 좋아함"] },
+    { name: "안민선", "image": "/img/minsun.png", department: "sw", hashtag: ["INFP", "잘 들어줌", "체육 부장", "귀여운거 좋아함"] },
     { name: "이서현", image: "", department: "de", hashtag: [] },
     { name: "이경민", image: "", department: "de", hashtag: [] },
 ];
@@ -152,8 +152,13 @@ const MASwebsite = () => {
                 ))}
             </div>
             <div className="title3">활동 이력</div>
-                <ActivitySlider />
+            <ActivitySlider />
             <div className="title4">동아리 역사관</div>
+            <div className="history1">
+                <img src="/img/Activity1.jpg" alt="STAC" />
+                <p className="subtitle">STAC</p>
+                <p className="award">수상자 : ㅇㅇㅇ</p>
+            </div>
             <div className="title5">MAS만의 차별점</div>
             <div className="title6">동아리 분위기</div>
         </div>

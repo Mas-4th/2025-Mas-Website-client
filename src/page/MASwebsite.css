@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
 
 body {
     margin: 0;
@@ -336,6 +337,7 @@ button:hover {
     padding-left: 190px;
     width: 1019.735px;
     height: 591.558px;
+    object-fit: fill;
 }
 
 
@@ -353,6 +355,49 @@ button:hover {
     text-align: center;
     margin-top: 158px;
     margin-left: 180px;
+}
+
+.history1 {
+    display: flex;
+    position: relative;
+}
+
+.history1 img {
+    margin-top: 81PX;
+    margin-left: 246px;
+    width: 603px;
+    height: 390px;
+    object-fit: fill;
+}
+
+.history1 .subtitle {
+    width: 281px;
+    height: 79px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background-color: #829939;
+    text-align: center;
+    line-height: 75px;
+    margin-top: 320px;
+    margin-left: 100px;
+    color: #FFF;
+    font-family: "Istok Web";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.history1 .award {
+    position: absolute;
+    top: 88%;
+    left: 55%;
+    transform: translateX(-50%);
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .title5 {
