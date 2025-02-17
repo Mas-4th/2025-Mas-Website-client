@@ -400,6 +400,49 @@ button:hover {
     line-height: normal;
 }
 
+.history2 {
+    display: flex;
+    position: relative;
+}
+
+.history2 img {
+    margin-top: 81PX;
+    margin-left: 78px;
+    width: 603px;
+    height: 390px;
+    object-fit: fill;
+}
+
+.history2 .subtitle {
+    width: 281px;
+    height: 79px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background-color: #829939;
+    text-align: center;
+    line-height: 75px;
+    margin-top: 320px;
+    margin-left: 575px;
+    color: #FFF;
+    font-family: "Istok Web";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.history2 .award {
+    position: absolute;
+    top: 88%;
+    left: 42%;
+    transform: translateX(-50%);
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .title5 {
     color: #FFF;
     font-family: Inter;

@@ -159,6 +159,41 @@ const MASwebsite = () => {
                 <p className="subtitle">STAC</p>
                 <p className="award">수상자 : ㅇㅇㅇ</p>
             </div>
+            <div className="history2">
+                <p className="subtitle">STAC</p>
+                <p className="award">수상자 : ㅇㅇㅇ</p>
+                <img src="/img/Activity1.jpg" alt="STAC" />
+            </div>
+            <div className="history1">
+                <img src="/img/Activity1.jpg" alt="STAC" />
+                <p className="subtitle">STAC</p>
+                <p className="award">수상자 : ㅇㅇㅇ</p>
+            </div>
+            <div className="history2">
+                <p className="subtitle">STAC</p>
+                <p className="award">수상자 : ㅇㅇㅇ</p>
+                <img src="/img/Activity1.jpg" alt="STAC" />
+            </div>
+            <div className="history1">
+                <img src="/img/Activity1.jpg" alt="STAC" />
+                <p className="subtitle">STAC</p>
+                <p className="award">수상자 : ㅇㅇㅇ</p>
+            </div>
+            <div className="history2">
+                <p className="subtitle">STAC</p>
+                <p className="award">수상자 : ㅇㅇㅇ</p>
+                <img src="/img/Activity1.jpg" alt="STAC" />
+            </div>
+            <div className="history1">
+                <img src="/img/Activity1.jpg" alt="STAC" />
+                <p className="subtitle">STAC</p>
+                <p className="award">수상자 : ㅇㅇㅇ</p>
+            </div>
+            <div className="history2">
+                <p className="subtitle">STAC</p>
+                <p className="award">수상자 : ㅇㅇㅇ</p>
+                <img src="/img/Activity1.jpg" alt="STAC" />
+            </div>
             <div className="title5">MAS만의 차별점</div>
             <div className="title6">동아리 분위기</div>
         </div>
