@@ -171,14 +171,6 @@ button:hover {
     display: block;
 }
 
-.empty-pic {
-    width: 250px;
-    height: 250px;
-    background-color: #ddd;
-    margin: 48px auto;
-    display: block;
-}
-
 .name {
     font-weight: bold;
     margin-top: 10px;
