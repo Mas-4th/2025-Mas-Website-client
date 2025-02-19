@@ -203,6 +203,9 @@ const MASwebsite = () => {
                 <p>다양한 공모전과 프로젝트 활동</p>
                 <img src="/img/Polygon.png" />
             </div>
+            <div className="end">
+                <p className="endtitle">문의사항 및 Q&A</p>
+            </div>
         </div>
     );
 };

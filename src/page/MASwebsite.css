@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
 
 body {
     margin: 0;
@@ -547,4 +548,23 @@ button:hover {
     text-align: center;
     margin-top: 158px;
     margin-left: 180px;
+}
+
+.end{
+    margin-top: 470px;
+    width: 1878.5px;
+height: 782px;
+flex-shrink: 0;
+background: #2D2F30;
+}
+
+.endtitle {
+color: #FFF;
+font-family: "Inria Serif";
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+padding-top: 125px;
 }
