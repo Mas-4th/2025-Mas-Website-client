@@ -191,6 +191,18 @@ const MASwebsite = () => {
                 <img src="/img/Polygon.png" />
             </div>
             <div className="title6">동아리 분위기</div>
+            <div className="feel1">
+                <p>자유로운 의견 수용</p>
+                <img src="/img/Polygon.png" />
+            </div>
+            <div className="feel2">
+                <p>1:1 라인선배</p>
+                <img src="/img/Polygon.png" />
+            </div>
+            <div className="feel1">
+                <p>다양한 공모전과 프로젝트 활동</p>
+                <img src="/img/Polygon.png" />
+            </div>
         </div>
     );
 };

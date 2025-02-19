@@ -473,23 +473,52 @@ button:hover {
     text-align: center;
 }
 
-.dif img {
-    position: absolute;
-    top: 60px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50px;
-    height: 50px;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    z-index: 2; /* z-index 추가로 레이어 순서 제어 */
-}
-
 .dif2 {
     margin-left: 350px !important;
+    position: relative;
 }
 
 .dif2 p {
+    width: 529px;
+    height: 225px;
+    flex-shrink: 0;
+    border-radius: 26px;
+    background: #FFFAE7;
+    color: #1F1F1F;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200px;
+    text-align: center;
+}
+
+.feel1 {
+    position: relative;
+    margin-left: 1000px !important;
+}
+
+.feel1 p {
+    position: relative;
+    width: 529px;
+    height: 225px;
+    flex-shrink: 0;
+    border-radius: 26px;
+    background: #FFFAE7;
+    color: #1F1F1F;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200px;
+    text-align: center;
+}
+
+.feel2 {
+    margin-left: 350px !important;
+}
+
+.feel2 p {
     width: 529px;
     height: 225px;
     flex-shrink: 0;
