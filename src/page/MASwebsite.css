@@ -452,6 +452,42 @@ button:hover {
     margin-left: 180px;
 }
 
+.dif1 {
+    position: relative; /* 상위 요소에 position을 relative로 설정 */
+}
+
+.dif1 p {
+    position: relative;
+    width: 529px;
+    height: 225px;
+    flex-shrink: 0;
+    border-radius: 26px;
+    background: #FFFAE7;
+    color: #1F1F1F;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200px;
+    text-align: center;
+}
+
+
+.dif2 p {
+    width: 529px;
+    height: 225px;
+    flex-shrink: 0;
+    border-radius: 26px;
+    background: #FFFAE7;
+    color: #1F1F1F;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200px;
+    text-align: center;
+}
+
 .title6 {
     color: #FFF;
     font-family: Inter;

@@ -178,6 +178,18 @@ const MASwebsite = () => {
                 <img src="/img/Activity1.jpg" alt="STAC" />
             </div>
             <div className="title5">MAS만의 차별점</div>
+            <div className="dif1">
+                <p>선후배 간의 친목</p>
+                <img src="/img/Polygon.png" />
+            </div>
+            <div className="dif2">
+                <p>1:1 고민상담</p>
+                <img src="/img/Polygon.png" />
+            </div>
+            <div className="dif1">
+                <p>족보 제공</p>
+                <img src="/img/Polygon.png" />
+            </div>
             <div className="title6">동아리 분위기</div>
         </div>
     );
