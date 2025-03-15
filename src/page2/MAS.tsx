@@ -13,6 +13,9 @@ const MAS = () => {
                         <li><a href="">Join Us</a></li>
                         <li><a href="">Q&A</a></li>
                     </ul>
+                    <div className="apply">
+                        <a href="">지원하기</a>
+                    </div>
                 </nav>
             </header>
         </div>
